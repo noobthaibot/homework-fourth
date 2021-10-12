@@ -1,0 +1,86 @@
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.background {
+    max-width: 1420px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(
+        51.39deg,
+        #0065bd 66.32%,
+        #0759a5 72.87%,
+        #033a84 81.3%,
+        #012670 88.35%,
+        #001f69 93.12%,
+        #0f181d 116.4%
+    );
+}
+.bg-woman {
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+.banner-text {
+    display: none;
+}
+.banner-text1 {
+    color: #ffffff;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top: 50px;
+}
+.banner-text2 {
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-top: 90px;
+}
+.banner-text3 {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 200px;
+}
+.banner-text3 span {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.banner-text4 {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 290px;
+}
+.banner-text4 {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 290px;
+}
+.banner-text4 span:nth-child(1) {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.banner-text4 span:nth-child(2) {
+    width: 200px;
+    font-weight: 300;
+    font-size: 14px;
+}
+.banner-text5 {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 290px;
+}
+.banner-text5 span:nth-child(1) {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.banner-text5 span:nth-child(2) {
+    width: 300px;
+    font-weight: 300;
+    font-size: 14px;
+}
