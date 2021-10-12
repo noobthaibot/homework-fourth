@@ -1,5 +1,6 @@
 .container {
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0 15px;
 }
 .background {
@@ -16,14 +17,69 @@
         #0f181d 116.4%
     );
 }
-.bg-woman {
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-top-left-radius: 50%;
+body {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
 }
-.banner-text {
+.login {
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.logo__link {
+    width: 64px;
+    padding-top: 18px;
     display: none;
 }
+.address {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6px;
+    display: none;
+}
+.address a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    color: #061058;
+    margin-top: 7px;
+}
+
+.login a {
+    position: relative;
+    text-decoration: none;
+}
+.login-button {
+    display: block;
+    margin-left: 20px;
+    width: 145px;
+    height: 72px;
+    margin-top: 16px;
+    background-color: #00a87c;
+    box-shadow: inset 0px 7px 7px rgba(0, 0, 0, 0.25);
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+}
+.login-button::after {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 10px;
+    background-image: url(../img/arrow.svg);
+}
+.banner-text1,
+.banner-text2,
+.banner-text3,
+.banner-text4,
+.banner-text5 {
+    display: none;
+}
+
 .banner-text1 {
     color: #ffffff;
     font-weight: 300;
@@ -83,4 +139,14 @@
     width: 300px;
     font-weight: 300;
     font-size: 14px;
+}
+@media screen and (min-width: 480px) {
+    .login {
+        width: 480px;
+    }
+   .banner-text2 {
+       display: block;
+       padding-right: 20px;
+   }
+   
 }
