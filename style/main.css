@@ -1,0 +1,304 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+.background {
+    max-width: 1420px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(
+        51.39deg,
+        #0065bd 66.32%,
+        #0759a5 72.87%,
+        #033a84 81.3%,
+        #012670 88.35%,
+        #001f69 93.12%,
+        #0f181d 116.4%
+    );
+}
+body {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+.login {
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.logo__link {
+    width: 64px;
+    padding-top: 18px;
+    display: none;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6px;
+    display: none;
+}
+.address a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    color: #061058;
+    margin-top: 7px;
+}
+
+.login a {
+    position: relative;
+    text-decoration: none;
+}
+.login-button {
+    display: block;
+    margin-left: 20px;
+    width: 145px;
+    height: 72px;
+    margin-top: 16px;
+    background-color: #00a87c;
+    box-shadow: inset 0px 7px 7px rgba(0, 0, 0, 0.25);
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+}
+.login-button::after {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 10px;
+    background-image: url(../img/arrow.svg);
+}
+.banner-text1,
+.banner-text2,
+.banner-text3,
+.banner-text4,
+.banner-text5 {
+    display: none;
+}
+
+.banner-text1 {
+    color: #ffffff;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top: 50px;
+}
+.banner-text2 {
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-top: 90px;
+}
+.banner-text3 {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 200px;
+}
+.banner-text3 span {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.banner-text4 {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 290px;
+}
+.banner-text4 {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 290px;
+}
+.banner-text4 span:nth-child(1) {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.banner-text4 span:nth-child(2) {
+    width: 200px;
+    font-weight: 300;
+    font-size: 14px;
+}
+.banner-text5 {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 290px;
+}
+.banner-text5 span:nth-child(1) {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.banner-text5 span:nth-child(2) {
+    width: 300px;
+    font-weight: 300;
+    font-size: 14px;
+}
+.bg-woman,
+.benefits-img,
+.course-pos img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.benefits-title {
+    color: #061058;
+    display: block;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    padding: 40px 0 10px 40px;
+}
+.study-list {
+    padding-top: 42px;
+    list-style: none;
+    padding-left: 0;
+}
+.study-list li {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 14px
+    color: #061058;
+}
+.study-list li::before {
+    content: "";
+    flex-shrink: 0;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(../img/check.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 29px;
+}
+.study-duration {
+    padding-left: 54px;
+    display: flex;
+    position: relative;
+}
+.study-duration::before {
+    content: "";
+    width: 2px;
+    height: 180px;
+    display: inline-block;
+    background: url(../img/verticalline.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-shrink: 0;
+}
+.study-duration-title {
+    font-style: normal;
+
+    font-weight: 300;
+    font-size: 14px;
+    color: #061058;
+}
+.study-duration-po  s {
+    padding-left: 19px;    
+}
+.first-step {
+    margin-top: 24px;
+    padding-left: 64px;
+    background: url(../img/benefits-icon-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 8px;
+}
+.first-step span:nth-child(1) {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #061058;
+}
+.first-step span:nth-child(2) {
+    display: block;
+    font-weight: 300;
+    font-size: 14px;
+    color: #061058;
+    margin-top: 8px;
+}
+.second-step {
+    margin-top: 24px;
+    padding-left: 64px;
+    background:url(../img/benefits-icon-2.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position-x: 8px;
+    
+}
+.second-step span:nth-child(1) {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #061058;
+}
+.second-step span:nth-child(2) {
+    display: block;
+    font-weight: 300;
+    font-size: 14px;
+    color: #061058;
+    margin-top: 8px;
+}
+.course-pos {
+    margin-left: auto;
+    margin-right: auto;
+}
+.course-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #061058;
+    text-transform: uppercase;
+    text-align: center;
+}
+.course {
+    margin-left: auto;
+    margin-right: auto;
+
+    background: #F8F8FB;
+}
+.course-item {
+    padding-top: 186px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+ .main-text {
+    display: block;
+    text-align: center;
+    color: #061058;
+    
+    font-size: 14px;
+    font-weight: 700;
+}
+.course-item p {
+    font-size: 14px;
+    text-align: center;
+    color: #061058;
+}
+@media screen and (min-width: 480px) {
+    .login {
+        width: 480px;
+    }
+   .banner-text2 {
+       display: block;
+       padding-right: 20px;
+   }
+   .course-pos {
+       display: block;
+   }
+}
