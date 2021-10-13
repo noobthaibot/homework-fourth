@@ -72,13 +72,6 @@ body {
     height: 10px;
     background-image: url(../img/arrow.svg);
 }
-.banner-text1,
-.banner-text2,
-.banner-text3,
-.banner-text4,
-.banner-text5 {
-    display: none;
-}
 
 .banner-text1 {
     color: #ffffff;
@@ -98,7 +91,7 @@ body {
     color: #ffffff;
     font-weight: 300;
     font-size: 16px;
-    padding-top: 200px;
+    padding-top: 30px;
 }
 .banner-text3 span {
     text-transform: uppercase;
@@ -108,13 +101,13 @@ body {
     color: #ffffff;
     font-weight: 300;
     font-size: 16px;
-    padding-top: 290px;
+    
 }
 .banner-text4 {
     color: #ffffff;
     font-weight: 300;
     font-size: 16px;
-    padding-top: 290px;
+    
 }
 .banner-text4 span:nth-child(1) {
     text-transform: uppercase;
@@ -129,7 +122,7 @@ body {
     color: #ffffff;
     font-weight: 300;
     font-size: 16px;
-    padding-top: 290px;
+
 }
 .banner-text5 span:nth-child(1) {
     text-transform: uppercase;
@@ -265,14 +258,12 @@ body {
     text-align: center;
 }
 .course {
-    margin-left: auto;
-    margin-right: auto;
-
+    margin: 0 auto;
     background: #F8F8FB;
 }
 .course-item {
     padding-top: 186px;
-    width: 33%;
+
     display: flex;
     flex-direction: column;
     position: relative;
@@ -290,15 +281,150 @@ body {
     text-align: center;
     color: #061058;
 }
-@media screen and (min-width: 480px) {
-    .login {
-        width: 480px;
-    }
-   .banner-text2 {
-       display: block;
-       padding-right: 20px;
-   }
-   .course-pos {
-       display: block;
-   }
+.course-pos img {
+    margin: 0 auto;
 }
+@media screen and (max-width: 1480px) {
+	.container {
+		width: 1420px;
+	}
+    .banner-text2 {
+        padding-right: 20px;
+    }
+    .course-pos {
+        display: flex;
+    }
+    .banner-text1,
+    .banner-text2,
+    .banner-text3,
+    .banner-text4,
+    .banner-text5 {
+        display: block;
+    }
+    .logo__link {
+        display: block;
+        padding-right: 50%;
+    }
+}
+
+
+@media screen and (max-width: 1199px) {
+	.container {
+		width: 960px;
+	}
+    .banner-text2 {
+        display: block;
+        padding-right: 20px;
+    }
+    .course-pos {
+        display: block;
+    }
+    .banner-text1,
+    .banner-text2,
+    .banner-text3 {
+        display: block;
+    }
+    .logo__link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+	.container {
+		width: 720px;
+	}
+    .banner-text2 {
+        display: block;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .course-pos {
+        display: block;
+    }
+    .banner-text1 {
+        display: block;
+    }
+    .banner-text3,
+    .banner-text4,
+    .banner-text5 {
+        display: none;
+    }
+    .logo__link {
+        display: none;
+    }
+}
+}
+@media screen and (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+    .banner-text2 {
+        display: block;
+        padding-right: 20px;
+    }
+    .course-pos {
+        display: block;
+    }
+    .banner-text1,
+    .banner-text3,
+    .banner-text4,
+    .banner-text5 {
+        display: none;
+    }
+    .logo__link {
+        display: none;
+    }
+    
+    
+}
+@media screen and (max-width: 575px) {
+	.container {
+		width: 100%;
+		padding: 0 15px;
+	}
+    .banner-text2 {
+        display: none;
+        padding-right: 20px;
+    }
+    .course-pos {
+        display: block;
+    }
+    .login {
+        justify-content: space-between;
+        width: 300px;
+    }
+    .login-button {
+        margin: 0;
+    }
+    .banner-text1,
+    .banner-text2,
+    .banner-text3,
+    .banner-text4,
+    .banner-text5 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1480px) {
+	.container {
+		width: 1420px;
+	}
+    .banner-text2 {
+        padding-right: 20px;
+    }
+    .course-pos {
+        display: flex;
+    }
+    .banner-text1,
+    .banner-text2,
+    .banner-text3,
+    .banner-text4,
+    .banner-text5 {
+        display: block;
+    }
+    .logo__link {
+        display: block;
+        padding-right: 70%;
+    }
+}
+
