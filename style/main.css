@@ -133,6 +133,7 @@ body {
     font-weight: 300;
     font-size: 14px;
 }
+
 .bg-woman,
 .benefits-img,
 .course-pos img {
@@ -174,6 +175,14 @@ body {
     background-size: contain;
     margin-right: 29px;
 }
+.study-title {
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    color: #00a87c;
+    padding-left: 50px;
+}
 .study-duration {
     padding-left: 54px;
     display: flex;
@@ -191,10 +200,10 @@ body {
 }
 .study-duration-title {
     font-style: normal;
-
     font-weight: 300;
     font-size: 14px;
     color: #061058;
+    padding-left: 10px;
 }
 .study-duration-po  s {
     padding-left: 19px;    
@@ -305,6 +314,14 @@ body {
         display: block;
         padding-right: 50%;
     }
+    .benefits-flex{
+        display: flex;
+        align-items: flex-end;
+    }
+    .benefits-flex2 {
+        padding-bottom: 80px;
+    }
+    
 }
 
 
@@ -326,6 +343,12 @@ body {
     }
     .logo__link {
         display: none;
+    }
+    .benefits-flex{
+        display: block;
+    }
+    .benefits-flex2 {
+        padding-bottom: 80px;
     }
 }
 
@@ -425,6 +448,13 @@ body {
     .logo__link {
         display: block;
         padding-right: 70%;
+    }
+    .benefits-flex{
+        display: flex;
+        align-items: flex-end;
+    }
+    .benefits-flex2 {
+        padding-bottom: 80px;
     }
 }
 
